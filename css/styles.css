@@ -62,3 +62,8 @@ body { padding-top: 70px; }
   .nav-link:hover {
     color: #fd7e14;
   }
+
+
+  .card_text_color {
+    color: black;
+  }
