@@ -1,4 +1,4 @@
-rsync -alvr --delete portfolio hyuksoog@gtown3.reclaimhosting.com:/home/hyuksoog/public_html/
+rsync -alvr --delete ./ hyuksoog@gtown3.reclaimhosting.com:/home/hyuksoog/public_html/
 
 DATE=$(date +"DATE-%Y-%m-%d-TIME-%H-%M-%S")
 message="GITHUB-UPLOAD:$DATE";
